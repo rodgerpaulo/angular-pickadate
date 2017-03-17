@@ -166,6 +166,7 @@
               outOfMinRange: outOfMinRange,
               outOfMaxRange: outOfMaxRange,
               monthOffset: monthOffset,
+              outOfMonth: outOfMonth,
               enabled: !(disabled || outOfMinRange || outOfMaxRange || outOfMonth)
             };
           },
@@ -357,6 +358,8 @@
 
             scope.dates = map(dates, function(date) {
               date.classNames = [date.enabled ? 'pickadate-enabled' : 'pickadate-disabled'];
+
+              if (date.monthOffset !== 0) date.classNames.push('pickadate-out-of-month');
 
               if (date.today)    date.classNames.push('pickadate-today');
               if (date.disabled) date.classNames.push('pickadate-unavailable');

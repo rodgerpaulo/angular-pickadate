@@ -34,11 +34,15 @@
       border-right: 1px solid #DCDCDC; }
     .pickadate-cell li:nth-child(1), .pickadate-cell li:nth-child(8), .pickadate-cell li:nth-child(15), .pickadate-cell li:nth-child(22), .pickadate-cell li:nth-child(29), .pickadate-cell li:nth-child(36) {
       border-left: 1px solid #DCDCDC; }
-  .pickadate-cell .pickadate-disabled {
+  .pickadate-cell .pickadate-disabled, .pickadate-cell .pickadate-out-of-month {
     color: #DCDCDC; }
-    .pickadate-cell .pickadate-disabled a {
+    .pickadate-cell .pickadate-disabled a, .pickadate-cell .pickadate-out-of-month a {
       color: #DCDCDC; }
-  .pickadate-cell .pickadate-enabled {
+  .pickadate-out-of-month:not(.pickadate-disabled) {
+    cursor: pointer; }
+  .pickadate-out-of-month:not(.pickadate-disabled):hover {
+    color: #666666 }
+  .pickadate-cell .pickadate-enabled:not(.pickadate-out-of-month) {
     cursor: pointer;
     font-size: 12px;
     color: #666666; }
