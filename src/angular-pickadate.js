@@ -166,7 +166,6 @@
               outOfMinRange: outOfMinRange,
               outOfMaxRange: outOfMaxRange,
               monthOffset: monthOffset,
-              outOfMonth: outOfMonth,
               enabled: !(disabled || outOfMinRange || outOfMaxRange || outOfMonth)
             };
           },

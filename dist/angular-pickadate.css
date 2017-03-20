@@ -38,10 +38,10 @@
     color: #DCDCDC; }
     .pickadate-cell .pickadate-disabled a, .pickadate-cell .pickadate-out-of-month a {
       color: #DCDCDC; }
-  .pickadate-out-of-month:not(.pickadate-disabled) {
+  .pickadate-cell .pickadate-out-of-month:not(.pickadate-disabled) {
     cursor: pointer; }
-  .pickadate-out-of-month:not(.pickadate-disabled):hover {
-    color: #666666 }
+    .pickadate-cell .pickadate-out-of-month:not(.pickadate-disabled):hover {
+      color: #666666; }
   .pickadate-cell .pickadate-enabled:not(.pickadate-out-of-month) {
     cursor: pointer;
     font-size: 12px;
