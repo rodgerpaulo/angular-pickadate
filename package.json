@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/restorando/angular-pickadate.git"
+    "url": "git://github.com/rodgerpaulo/angular-pickadate.git"
   },
   "keywords": [
     "datepicker",
@@ -18,9 +18,9 @@
   "author": "Gabriel Schammah",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/restorando/angular-pickadate/issues"
+    "url": "https://github.com/rodgerpaulo/angular-pickadate/issues"
   },
-  "homepage": "https://github.com/restorando/angular-pickadate",
+  "homepage": "https://github.com/rodgerpaulo/angular-pickadate",
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.1",
