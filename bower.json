@@ -1,9 +1,9 @@
 {
   "name": "angular-pickadate-calendar",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "homepage": "https://github.com/rodgerpaulo/angular-pickadate",
   "authors": [
-    "Gabriel Schammah <gschammah@gmail.com>"
+    "Roger Ramos <rodgerpaulo@hotmail.com>"
   ],
   "description": "A simple and fluid inline datepicker for AngularJS with no extra dependencies forked from https://github.com/restorando/angular-pickadate",
   "keywords": [
